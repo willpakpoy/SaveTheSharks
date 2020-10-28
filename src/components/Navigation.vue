@@ -3,9 +3,9 @@
     <nav>
       <h1>Save The Sharks</h1>
       <ul>
-        <li>Nav #1</li>
-        <li>Nav #2</li>
-        <li>Nav #3</li>
+        <li>Home</li>
+        <li>The Facts</li>
+        <li>Do Something</li>
       </ul>
     </nav>
     <hr>
@@ -20,6 +20,10 @@ export default {
 
 <style scoped lang="scss">
 div {
+  backdrop-filter: blur(6px);
+  z-index: 500;
+  position: absolute;
+  width: 100vw;
   nav {
     max-width: var(--default-page-width);
     margin-left: auto;
@@ -28,6 +32,7 @@ div {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 10px 0px;
     h1 {
       text-transform: uppercase;
       font-weight: 900;
@@ -41,17 +46,19 @@ div {
       display: flex;
       align-items: center;
       li {
-        margin: 0px 6px;
+        margin: 0px 10px;
         text-transform: uppercase;
         font-weight: 100;
+        transition: 0.2s all;
         &:hover {
-          font-weight: 900;
+          color: var(--c-navy-lighter);
+          transition: 0.2s all;
         }
       }
     }
   }
   hr {
-    border-top: 2px solid var(--c-navy);
+    border-top: 1.6px solid var(--c-navy);
     margin: 0px;
   }
 }
