@@ -1,0 +1,17 @@
+@import 'normalize-scss';
+@include normalize();
+
+@import 'styles/variables';
+
+*, *::before, *::after{
+  box-sizing: border-box;
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+body {
+  font-family: inter;
+  font-weight: 700;
+  color: var(--c-navy);
+  margin: 0px;
+}
