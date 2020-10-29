@@ -1,6 +1,6 @@
 <template>
   <div class="hero demo">
-    <p>Over a (number)<br/>of sharks are killed<br/>every year.</p>
+    <p>Over 100 million<br/>of sharks are killed<br/>every year.</p>
   </div>
 </template>
 
