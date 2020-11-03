@@ -24,6 +24,7 @@ div {
   z-index: 500;
   position: absolute;
   width: 100vw;
+  background-color: #dddddd90;
   nav {
     max-width: var(--default-page-width);
     margin-left: auto;
@@ -46,6 +47,7 @@ div {
       display: flex;
       align-items: center;
       li {
+        cursor: pointer;
         margin: 0px 10px;
         text-transform: uppercase;
         font-weight: 100;
@@ -58,6 +60,7 @@ div {
     }
   }
   hr {
+    border: none;
     border-top: 1.6px solid var(--c-navy);
     margin: 0px;
   }
