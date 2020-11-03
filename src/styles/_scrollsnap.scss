@@ -1,0 +1,9 @@
+#content {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+    overflow-x: hidden;
+    .hero {
+        scroll-snap-align: center;
+    }
+}

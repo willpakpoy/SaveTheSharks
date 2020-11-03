@@ -2,6 +2,11 @@
 @include normalize();
 
 @import 'styles/variables';
+@import 'styles/scrollsnap';
+@import 'styles/animations';
+@import 'styles/webkit-scrollbar';
+
+
 
 *, *::before, *::after{
   box-sizing: border-box;
@@ -13,6 +18,7 @@ body {
   font-family: acumin-pro;
   font-weight: 700;
   line-height: 1.1;
-  color: var(--c-navy);
+  color: var(--c-text-navy);
   margin: 0px;
+  overflow: hidden;
 }

@@ -8,7 +8,7 @@
         <li>Do Something</li>
       </ul>
     </nav>
-    <hr>
+    <hr />
   </div>
 </template>
 
@@ -53,7 +53,7 @@ div {
         font-weight: 100;
         transition: 0.2s all;
         &:hover {
-          color: var(--c-navy-lighter);
+          color: var(--c-text-navy-lighter);
           transition: 0.2s all;
         }
       }
@@ -61,7 +61,7 @@ div {
   }
   hr {
     border: none;
-    border-top: 1.6px solid var(--c-navy);
+    border-top: 1.6px solid var(--c-text-navy);
     margin: 0px;
   }
 }
