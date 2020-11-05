@@ -1,6 +1,8 @@
 <template>
-  <div class="hero 75">
-    <slot />
+  <div class="hero 75 outer">
+    <div class="hero 75 inner">
+      <slot />
+    </div>
   </div>
 </template>
 
@@ -11,11 +13,13 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.hero {
+.hero.inner {
   height: 75vh;
-  width: 100vw;
+  width: var(--default-page-width);
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 </style>

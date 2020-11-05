@@ -1,16 +1,14 @@
 <template>
-  <hero-75 id="hero-1">
+  <div id="hero-1" class="hero">
     <p>
       <img
         src="https://www.flaticon.com/svg/static/icons/svg/25/25415.svg"
       />Scroll to continue
     </p>
     <p>Over 100 million<br />sharks are killed<br />every year.</p>
-  </hero-75>
+  </div>
 
-  <hero-75>
-    <h1>Why Sharks are important</h1>
-  </hero-75>
+  <hero-set-1 />
 
   <hero-75>
     <h1>content-2</h1>
@@ -24,23 +22,27 @@
 <script>
 // @ is an alias to /src
 import Hero75 from "@/components/Hero75";
+import HeroSet1 from "@/views/Home/HeroSet1/HeroSet1";
+
 
 export default {
   name: "Home",
   components: {
-    Hero75
+    Hero75,
+    HeroSet1
   }
 };
 </script>
 
 <style scoped lang="scss">
 #hero-1 {
-  height: 100vh;
   background: url(https://images.pexels.com/photos/1700656/pexels-photo-1700656.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
     no-repeat center center fixed;
   background-size: cover;
   align-items: flex-end;
   justify-content: space-between;
+  display: flex;
+  height: 100vh;
   p {
     color: #fff;
     margin: 0px;
@@ -63,7 +65,7 @@ export default {
         display: inline;
         height: 1.4em;
         margin-right: 10px;
-        filter: invert(1)
+        filter: invert(1);
       }
     }
   }
