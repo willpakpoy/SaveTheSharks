@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.5d01f18028c95874f3bd3304323c16ef.js"
+  "/precache-manifest.343ff77d3845e3608953930bdf7d143c.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "savethesharks"});
