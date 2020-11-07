@@ -17,7 +17,6 @@
 import HeroSet1 from "@/views/Home/HeroSet1/HeroSet1";
 import HeroSet2 from "@/views/Home/HeroSet2/HeroSet2";
 
-
 export default {
   name: "Home",
   components: {

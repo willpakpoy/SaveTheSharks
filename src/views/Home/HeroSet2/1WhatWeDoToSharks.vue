@@ -12,7 +12,7 @@ export default {
   components: {
     Hero75
   }
-}
+};
 </script>
 
 <style scoped lang="scss">

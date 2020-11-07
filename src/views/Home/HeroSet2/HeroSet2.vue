@@ -1,30 +1,29 @@
 <template>
-  <div class="hero-set-1">
+  <div class="hero-set-2">
     <what-we-do-to-sharks />
-    <a-healthy-ocean />
-    <carbon-emissions />
+    <commercial-shark-finning />
+    <entanglement-in-fishing-gear />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import WhatWeDoToSharks from "./1WhatWeDoToSharks";
-import AHealthyOcean from "./2AHealthyOcean";
-import CarbonEmissions from "./3CarbonEmissions";
-
+import CommercialSharkFinning from "./2CommercialSharkFinning";
+import EntanglementInFishingGear from "./3EntanglementInFishingGear";
 
 export default {
   name: "Home",
   components: {
     WhatWeDoToSharks,
-    AHealthyOcean,
-    CarbonEmissions
+    CommercialSharkFinning,
+    EntanglementInFishingGear
   }
 };
 </script>
 
 <style scoped lang="scss">
-.hero-set-1 {
+.hero-set-2 {
   background: var(--c-g-color-2);
 }
 </style>
