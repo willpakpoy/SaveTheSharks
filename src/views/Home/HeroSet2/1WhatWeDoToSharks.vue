@@ -1,6 +1,6 @@
 <template>
   <hero-75>
-    <h1>What sharks do for us</h1>
+    <h1>What we do to sharks</h1>
   </hero-75>
 </template>
 

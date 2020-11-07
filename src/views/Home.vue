@@ -9,27 +9,20 @@
   </div>
 
   <hero-set-1 />
-
-  <hero-75>
-    <h1>content-2</h1>
-  </hero-75>
-
-  <hero-75>
-    <h1>content-3</h1>
-  </hero-75>
+  <hero-set-2 />
 </template>
 
 <script>
 // @ is an alias to /src
-import Hero75 from "@/components/Hero75";
 import HeroSet1 from "@/views/Home/HeroSet1/HeroSet1";
+import HeroSet2 from "@/views/Home/HeroSet2/HeroSet2";
 
 
 export default {
   name: "Home",
   components: {
-    Hero75,
-    HeroSet1
+    HeroSet1,
+    HeroSet2
   }
 };
 </script>

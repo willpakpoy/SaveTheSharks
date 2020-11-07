@@ -1,9 +1,18 @@
 :root {
+  /* COLOURS */
+  /* text */
   --c-text-navy: #2c3e50;
   --c-text-navy-lighter: #527093;
+  /* static */
   --c-color-1: #274c77;
   --c-color-2: #6096ba;
   --c-color-3: #a3cef1;
+  --c-color-4: #002147;
+  --c-x-oxford: var(--c-color-4);
+  /* gradients */
+  --c-g-color-2: linear-gradient(135deg, rgba(145,199,236,1) 0%, rgba(45,104,138,1) 100%);
+  --c-g-color-3: linear-gradient(135deg, rgba(214,255,255,1) 0%, rgba(114,157,190,1) 100%);
 
+  /* LAYOUT */
   --default-page-width: 1024px;
 }

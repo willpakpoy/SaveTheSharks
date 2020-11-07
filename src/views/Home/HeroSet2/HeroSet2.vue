@@ -1,6 +1,6 @@
 <template>
   <div class="hero-set-1">
-    <why-sharks-are-important />
+    <what-we-do-to-sharks />
     <a-healthy-ocean />
     <carbon-emissions />
   </div>
@@ -8,7 +8,7 @@
 
 <script>
 // @ is an alias to /src
-import WhySharksAreImportant from "./1WhySharksAreImportant";
+import WhatWeDoToSharks from "./1WhatWeDoToSharks";
 import AHealthyOcean from "./2AHealthyOcean";
 import CarbonEmissions from "./3CarbonEmissions";
 
@@ -16,7 +16,7 @@ import CarbonEmissions from "./3CarbonEmissions";
 export default {
   name: "Home",
   components: {
-    WhySharksAreImportant,
+    WhatWeDoToSharks,
     AHealthyOcean,
     CarbonEmissions
   }
@@ -25,6 +25,6 @@ export default {
 
 <style scoped lang="scss">
 .hero-set-1 {
-  background: var(--c-g-color-3);
+  background: var(--c-g-color-2);
 }
 </style>

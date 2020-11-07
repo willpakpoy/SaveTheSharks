@@ -30,13 +30,14 @@ export default {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 32px;
   .image {
+    grid-column: 1 / span 1;
     /deep/ img {
       height: 100%;
       width: 100%;
     }
   }
   .content {
-    grid-column: 2 / 4;
+    grid-column: 2 / span 2;
     opacity: 1;
   }
   h1 {
@@ -46,7 +47,7 @@ export default {
     text-transform: uppercase;
   }
   p {
-    font-size: 2em;
+    font-size: 1.8em;
   }
 }
 </style>

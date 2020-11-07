@@ -1,0 +1,10 @@
+.hero.outer:nth-child(odd) .lrx-hero {
+  .content {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+  }
+  .image {
+    grid-column: 3 / span 1;
+    grid-row: 1;
+  }
+}
