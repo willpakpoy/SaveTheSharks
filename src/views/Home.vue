@@ -10,18 +10,21 @@
 
   <hero-set-1 />
   <hero-set-2 />
+  <hero-set-3 />
 </template>
 
 <script>
 // @ is an alias to /src
 import HeroSet1 from "@/views/Home/HeroSet1/HeroSet1";
 import HeroSet2 from "@/views/Home/HeroSet2/HeroSet2";
+import HeroSet3 from "@/views/Home/HeroSet3/HeroSet3";
 
 export default {
   name: "Home",
   components: {
     HeroSet1,
-    HeroSet2
+    HeroSet2,
+    HeroSet3
   }
 };
 </script>

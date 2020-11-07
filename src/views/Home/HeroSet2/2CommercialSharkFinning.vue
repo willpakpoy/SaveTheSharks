@@ -7,8 +7,7 @@
     Commercial shark finning is the practice of catching a shark, removing it's
     fin, and then discarding the rest of the animal into the sea, where it dies
     a slow and painful death. This valuable resource is often used in
-    traditional Chinese medicines, and shark fin soup, a traditional delicacy
-    dating back over 1,000 years.
+    traditional Chinese medicines, and shark fin soup.
   </LRX75Hero>
 </template>
 

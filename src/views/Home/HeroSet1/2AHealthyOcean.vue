@@ -4,7 +4,7 @@
     <template v-slot:image
       ><img src="https://www.flaticon.com/svg/static/icons/svg/2739/2739396.svg"
     /></template>
-    Sharks help foster a healthy and vibrant marine ecosystem, by maintaining a
+    Sharks help foster a healthy and robust marine ecosystem, by maintaining a
     structure to the food chain. This has a profound and lasting impact on the
     continued growth of the ecosystem. Marine biologists are already observing
     the detrimental impacts of a loss to the shark population.
