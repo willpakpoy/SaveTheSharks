@@ -1,5 +1,5 @@
 <template>
-  <div class="hero-set-2">
+  <div id="hero-set-2">
     <what-we-do-to-sharks />
     <commercial-shark-finning />
     <entanglement-in-fishing-gear />
@@ -23,7 +23,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.hero-set-2 {
+#hero-set-2 {
   background: var(--c-g-color-2);
 }
 </style>

@@ -3,9 +3,9 @@
     <nav>
       <h1>Save The Sharks</h1>
       <ul>
-        <li>Home</li>
-        <li>The Facts</li>
-        <li>Do Something</li>
+        <li @click="jumpTo('#hero-set-1')">What sharks do for us</li>
+        <li @click="jumpTo('#hero-set-2')">What we do to sharks</li>
+        <li @click="jumpTo('#hero-set-3')">How society paints sharks as animals</li>
       </ul>
     </nav>
     <hr />
@@ -14,7 +14,12 @@
 
 <script>
 export default {
-  name: "Navigation"
+  name: "Navigation",
+  methods: {
+    jumpTo: function (to) {
+      this.$scrollTo(to, 1000, { container: '#content' })
+    }
+  }
 };
 </script>
 
@@ -52,6 +57,8 @@ div {
         text-transform: uppercase;
         font-weight: 100;
         transition: 0.2s all;
+        font-family: acumin-pro-condensed;
+        font-size: 18px;
         &:hover {
           color: var(--c-text-navy-lighter);
           transition: 0.2s all;

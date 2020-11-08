@@ -1,5 +1,5 @@
 <template>
-  <div class="hero-set-1">
+  <div id="hero-set-1">
     <why-sharks-are-important />
     <a-healthy-ocean />
     <carbon-emissions />
@@ -24,7 +24,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.hero-set-1 {
+#hero-set-1 {
   background: var(--c-g-color-3);
 }
 </style>

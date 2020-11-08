@@ -14,7 +14,7 @@ export default {
 
 <style scoped lang="scss">
 .hero.inner {
-  height: 55vh;
+  height: 65vh;
   width: var(--default-page-width);
   display: flex;
   justify-content: center;

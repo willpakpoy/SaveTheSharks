@@ -1,5 +1,5 @@
 <template>
-  <div class="hero-set-2">
+  <div id="hero-set-3">
     <society />
     <loan-shark />
     <pool-sharks />
@@ -23,7 +23,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.hero-set-2 {
+#hero-set-3 {
   background: var(--c-g-color-1);
 }
 </style>
