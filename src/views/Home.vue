@@ -11,6 +11,7 @@
   <hero-set-1 />
   <hero-set-2 />
   <hero-set-3 />
+  <hero-set-4 />
 </template>
 
 <script>
@@ -18,13 +19,16 @@
 import HeroSet1 from "@/views/Home/HeroSet1/HeroSet1";
 import HeroSet2 from "@/views/Home/HeroSet2/HeroSet2";
 import HeroSet3 from "@/views/Home/HeroSet3/HeroSet3";
+import HeroSet4 from "@/views/Home/HeroSet4/HeroSet4";
 
 export default {
   name: "Home",
   components: {
     HeroSet1,
     HeroSet2,
-    HeroSet3
+    HeroSet3,
+    HeroSet4
+
   }
 };
 </script>
